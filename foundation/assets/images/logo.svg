@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="60" viewBox="0 0 1200 300" role="img" aria-labelledby="title">
+<title id="title">AZT Foundation logo</title>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#34d399"/>
+    <stop offset="100%" stop-color="#3b82f6"/>
+  </linearGradient>
+</defs>
+<rect rx="28" ry="28" x="10" y="10" width="280" height="280" fill="url(#g)"/>
+<text x="320" y="180" font-family="Inter, system-ui, Arial, sans-serif" font-size="140" font-weight="700" fill="#111827">AZT</text>
+<text x="700" y="180" font-family="Inter, system-ui, Arial, sans-serif" font-size="120" font-weight="500" fill="#374151">Foundation</text>
+</svg>
