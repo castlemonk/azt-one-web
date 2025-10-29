@@ -1,13 +1,12 @@
+// Redirect foundation.azt.one to /foundation/ path
+(function() {
+  const h = location.hostname.toLowerCase();
+  if (h === 'foundation.azt.one' && !location.pathname.startsWith('/foundation/')) {
+    location.replace(location.protocol + '//' + location.host + '/foundation/');
+  }
+})();
 
 document.addEventListener('DOMContentLoaded', () => {
-  const h = location.hostname.toLowerCase();
-  if (h === 'foundation.azt.one') {
-    const target = location.protocol + '//' + location.host + '/foundation/';
-    if (!location.pathname.startsWith('/foundation/')) {
-      location.replace(target);
-      return;
-    }
-  }
   const yearEl = document.querySelector('[data-year]');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 });
