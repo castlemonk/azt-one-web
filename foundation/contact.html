@@ -16,7 +16,7 @@
     <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="programs.html">Programs</a></li><li><a href="impact.html">Impact</a></li><li><a href="resources.html">Resources</a></li><li><a href="get-involved.html">Get Involved</a></li><li><a href="contact.html" class="active">Contact</a></li>
-        <li><a class="cta" href="mailto:info@azt.one">Get Involved</a></li>
+        <li><a class="cta" href="contact.html">Get Involved</a></li>
       </ul>
     </nav>
   </div>
@@ -26,13 +26,22 @@
   <div class="container">
     <h1>Contact</h1>
     <p class="lead">Questions? Ideas? Reach out — we’d love to hear from you.</p>
-    <form class="form" action="#" method="post" onsubmit="alert('This is a static demo form. Connect to a form backend to collect submissions.'); return false;">
-      <label>Full name<input name="name" required/></label>
-      <label>Email<input type="email" name="email" required/></label>
-      <label>Message<textarea name="message" rows="6" required></textarea></label>
-      <button class="btn" type="submit">Send</button>
+    <form class="form" action="https://formspree.io/f/meopkndk" method="POST">
+      <label>
+        Full name
+        <input name="name" required/>
+      </label>
+      <label>
+        Email
+        <input type="email" name="_replyto" required/>
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+      <button class="btn" type="submit">Send Message</button>
     </form>
-    <p><small class="muted">Tip: connect this form to a service like Netlify Forms, Formspree, or your own API.</small></p>
+    <p><small class="muted">We'll get back to you as soon as possible. You can also email us directly at <a href="mailto:info@azt.one">info@azt.one</a></small></p>
   </div>
 </section>
 
@@ -50,7 +59,7 @@
     </div>
     <div>
       <p class="kicker">Get involved</p>
-      <p><a class="btn" href="mailto:info@azt.one">Get Involved</a> <a class="btn outline" href="mailto:info@azt.one">Partner with us</a></p>
+      <p><a class="btn" href="contact.html">Get Involved</a> <a class="btn outline" href="contact.html">Partner with us</a></p>
       <p><small class="muted">AZT Foundation is committed to empowerment, collaboration, and sustainability.</small></p>
     </div>
   </div>
